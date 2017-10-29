@@ -10,6 +10,7 @@ export class ImageListComponent implements OnInit {
   images: any[];
   imagesFound: boolean = false;
   searching: boolean = false;
+  searchQuery: string;
 
   handleSuccess(data) {
     this.imagesFound = true;
